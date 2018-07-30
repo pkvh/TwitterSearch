@@ -20,11 +20,9 @@ public class SplashActivity extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                if(SharedPreferencesManager.getInstance().isLoggedIn()) {
+
                     startActivity(new Intent(SplashActivity.this, HomeActivity.class));
-                } else{
-                    startActivity(new Intent(SplashActivity.this, LoginActivity.class));
-                }
+
 
                 finish();
             }

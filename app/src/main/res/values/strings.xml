@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TwitterSearch</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Side Menu Items-->
+    <string name="action_logout">Logout</string>
+    <string name="Twitterlogin">Twitter Login</string>
+    <string name="management">Management</string>
+    <string name="places">Places</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_parent_id">User</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign In   </string>
+    <string name="error_invalid_parent_id">Please enter a valid user id</string>
+    <string name="error_invalid_password">Please enter a valid password </string>
+
+
+
+</resources>
